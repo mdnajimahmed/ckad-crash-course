@@ -42,6 +42,7 @@ Go ahead and edit the existing Pod. Alternatively, you could also just use the `
 
 ```
 $ kubectl edit pod mypod --namespace=ckad-prep
+or kubectl set image pod nginx nginx=nginx:1.25.5
 ```
 
 After setting an image that does exist, the Pod should render the status `Running`.
